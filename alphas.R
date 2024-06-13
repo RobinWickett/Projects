@@ -6,7 +6,7 @@ updated_baseline <- read_sav("/Users/robwickett/Desktop/PhD/Study 3/Data/Cleaned
 # Load the dplyr package
 library(dplyr)
 
-# Assuming data1 and data2 are your data frames
+# Merging data
 merged_data <- inner_join(data, spss_data, by = "Q1")
 
 # Load the dplyr package
