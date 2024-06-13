@@ -22,7 +22,6 @@ print(sd_frequency)
 print(range_frequency)
 
 
-# Assuming your data is named my_data, Q1 represents participant IDs, and Q2 represents the responses
 # Filter the data to include only rows where Q2 is equal to 1 or 2
 filtered_data <- data %>% filter(Q2 %in% c(1, 2))
 
