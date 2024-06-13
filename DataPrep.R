@@ -1,9 +1,9 @@
 install.packages("haven")  # Run this line only once to install the package
 library(haven)
-# Replace "file_path/file_name.sav" with the actual file path and file name of your SPSS data file
+# Load SPSS data in
 data <- read_sav("/Users/robwickett/Desktop/R_Study3/Removedduplicates/removed_variables.sav")
 
-# Replace "file_path/file_name.sav" with the actual file path and file name of your SPSS data file
+# Load data in
 Baseline <- read_sav("/Users/robwickett/Desktop/PhD/Study 3/Data/Clean/Baseline_July 24, 2023_15.04.sav")
 
 # Get the variable names in the data frame
